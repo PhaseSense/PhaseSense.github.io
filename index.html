@@ -2,49 +2,61 @@
 <html>
 	<head>
 
-	<title>Sample Project Page</title>
+		<title>Sample Project Page</title>
+		<link rel="stylesheet" type="text/css" href="styles.scss" media="screen">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 
 	</head>
 
 	<body>
 
-		<center><h1>Phase Sense</h1></center>
+		<div class="header">
+			<center><h1>Phase Sense</h1></center>
+		</div>
 
 		<hr>
-		<p><!--Change the Team name and Team Members here -->
-			<h3>
-				Team Name: PineApple
-				<br>
-				Team Members: Jose Ramirez, Michael Ingrum, Alec Resha, Justin Henley, Chloe Hendrix, Lan Nguyen, Dang (Reagan) Hoang
-				<br>
-				Client: Dr. Harsh Verma, CEO & CTO of Glocol Networks
-				<br>
-				Adviser: Prof. Zhang
-			</h3>
-		</p>
+		<div class="section team">
+			<p><!--Change the Team name and Team Members here -->
+				<h3>
+					Team Name: PineApple
+					<br>
+					Team Members: Jose Ramirez, Michael Ingrum, Alec Resha, Justin Henley, Chloe Hendrix, Lan Nguyen, Dang (Reagan) Hoang
+					<br>
+					Client: Dr. Harsh Verma, CEO & CTO of Glocol Networks
+					<br>
+					Adviser: Prof. Zhang
+				</h3>
+			</p>
+		</div>
 
-		<h3>Background</h3>
-   	 	<p>
+		<div class="section background">
+			<h3>Background</h3>
+			<p>
 			<strong>Product Owner:</strong> Dr. Harsh Verma, Glocol Networks. <br>
       			<strong>Product Owner’s “Business”:</strong> Glocol Networks is an Internet Of Things research company with a focus on Smart Cities. They focus on researching and testing new connected products, working from a concept to a commercialized product. Focusing on smart cities and roads, they primarily work with CalTrans, USDOT, Cisco, Intel, and others. <br>
      	 		<strong>Problem to be solved:</strong> Currently, there are no solutions in which a camera can capture traffic signal changes through video feed without utilizing the traffic controller. Creating software that can achieve this goal and make the data available on a mobile app to be used as a standalone internal interface.
-		</p>
+		  </p>
+		</div>
 
+		<div class="section scope">
 		<h3>Scope</h3>
-		<p><!-- Change the description of the project strting from here -->
+			<p><!-- Change the description of the project strting from here -->
 
-			The goal of our project is to develop a solution for a visual approach that will capture signal change information at traffic intersections without interferring with the traffic controller. <br> 
-			In addition to capturing this data, it will also be demonstrated on a webapp in real time.		
-		</p>
+				The goal of our project is to develop a solution for a visual approach that will capture signal change information at traffic intersections without interferring with the traffic controller. <br> 
+				In addition to capturing this data, it will also be demonstrated on a webapp in real time.		
+			</p>
+		</div>
 
-		<h3>Proposed Solution</h3>
-		<p><!-- Change the description of the project strting from here -->
-			Create a software that camera can capture traffic signal changes through video feed without utilizing the traffic controller.<br>
-			Make the data available on a mobile app to be used as a standalone internal interface.<br>
-			There soon will be able to stand alone software has the ability to jumpstart infrastructure thanks to 350000 signalized traffic intersection in the US.<br> 
-		</p>
+		<div class="section solution">
+			<h3>Proposed Solution</h3>
+			<p><!-- Change the description of the project strting from here -->
+				Create a software that camera can capture traffic signal changes through video feed without utilizing the traffic controller.<br>
+				Make the data available on a mobile app to be used as a standalone internal interface.<br>
+				There soon will be able to stand alone software has the ability to jumpstart infrastructure thanks to 350000 signalized traffic intersection in the US.<br> 
+			</p>
+		</div>
 		
-		<div class="dataSection">
+		<div class=" section data">
 			<h3>Highlights</h3>
 			<h4>Importance</h4>
 			<p>
@@ -57,26 +69,32 @@
 				This project is unique because there are no public working devices or models that can capture, encode, and transmit traffic signal data in real time aside from ones that are built directly into the traffic intersections.
 				Even if our project does not become the final product, it will act as a proof of concept that it is possible to upgrade existing infrastructure to capture and transmit traffic signal changes in real time rather than replacing it.
 			</p>
-			</div>
+		</div>
 
-		<h3>Prototypes</h3>
-		<p><!-- Change the description of the project strting from here -->
-			Showcase your high-fidelity prototype, with screenshots, embedded link to prototype, and/or video demo, etc.<br> 
-			<br>
-		</p>
+		<div class="section prototypes">
+			<h3>Prototypes</h3>
+			<p><!-- Change the description of the project strting from here -->
+				Showcase your high-fidelity prototype, with screenshots, embedded link to prototype, and/or video demo, etc.<br> 
+				<br>
+			</p>
+		</div>
 	
-		<h3>Implementation</h3>
-		<p><!-- Change the description of the project strting from here -->
-			Talk about the tech stack.<br> 
+		<div class="section implementation">
+			<h3>Implementation</h3>
+			<p><!-- Change the description of the project strting from here -->
+				Talk about the tech stack.<br> 
 
-		</p>
+			</p>
+		</div>
 
-		<h3>Timeline</h3>
-		<p><!-- Change the description of the project strting from here -->
-			Give a projected timeline.<br> 
-			You will update this timeline periodically in CSC191.<br>
+		<div class="section timeline">
+			<h3>Timeline</h3>
+			<p><!-- Change the description of the project strting from here -->
+				Give a projected timeline.<br> 
+				You will update this timeline periodically in CSC191.<br>
 
-		</p>
+			</p>
+		</div>
 
 
 
@@ -104,7 +122,9 @@
 		</h3>
 
 		<!-- Change the URL of the video in the src tag below -->
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>
+		<center>
+			<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>
+		</center>
 
 	</body>
 </html>
