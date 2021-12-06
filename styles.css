@@ -56,6 +56,8 @@ body {
 * {
     color: black;
     font-style: bold;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+	Helvetica, Arial, "Lucida Grande", sans-serif;
     /*-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;*/
 }
@@ -63,11 +65,11 @@ body {
 .section {
     margin: auto;
     width: 75%;
-    border: black solid;
-    border-radius: 5px;
+    border: black 3px solid;
+    border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #ffffffad;
+    background-color: #ffffffde;
 }
 
 .section h3 {
@@ -83,4 +85,17 @@ body {
 .section p {
     padding: 0 20px;
     font-size: larger;
+}
+
+ul {
+	padding-left: 2rem;
+	list-style-type: none;
+}
+
+ul li {
+	padding-left: 2rem;
+	background-image: url(images/pineapple-1.1s-200px.svg);
+	background-position: 0 0;
+	background-size: 1.5rem 1.5rem;
+	background-repeat: no-repeat;
 }
