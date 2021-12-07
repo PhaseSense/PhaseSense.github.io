@@ -81,10 +81,23 @@
 	
 		<div class="section implementation">
 			<h3>Implementation</h3>
-			<p><!-- Change the description of the project strting from here -->
-				Talk about the tech stack.<br> 
-
-			</p>
+			<p>Our team will use a centralized server approach with four main components. </p>
+			<div class="inner-implementation">
+				<div><img src="images/ArchitectureDiagram.png"></div>
+				<div>
+					<ol>
+						<li>Our application will use low-cost edge devices to capture traffic signal information noninvasively.</li>
+						<ul><li>Each device will use Intel® Movidius™ architecture to run AI inferencing on the traffic lights. </li></ul>
+						<li>Amazon Web Services will maintain our server and Database. </li>
+						<ul>
+							<li>Data is always encrypted before it is transmitted using AWS Encryption SDK</li>
+							<li>Data is transmitted to a NodeJS API interface for storage in a MySQL database. </li>
+						</ul>
+						<li>Our API will provide SPAT data streams to consumers. </li>
+						<li>We will use Flutter to create a mobile web app to configure the edge devices and demo the system's data. </li>
+					</ol>
+				</div>
+			</div>
 		</div>
 
 		<div class="section timeline">

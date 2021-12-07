@@ -99,3 +99,11 @@ ul li {
 	background-size: 1.5rem 1.5rem;
 	background-repeat: no-repeat;
 }
+
+.inner-implementation{
+	display: flex;
+}
+.inner-implementation ol li{
+	margin-bottom: 10px;
+}
+
