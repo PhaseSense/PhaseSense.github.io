@@ -8,7 +8,6 @@
 	</head>
 
 	<body>
-
 		<div class="header">
 			<h1>Phase Sense</h1>
 		</div>
@@ -16,15 +15,14 @@
 		<hr>
 		<div class="section team">
 			<p><!--Change the Team name and Team Members here -->
-				<h3>
-					Team Name: PineApple
+				<strong>Team Name:</strong> PineApple
 					<br>
-					Team Members: Jose Ramirez, Michael Ingrum, Alec Resha, Justin Henley, Chloe Hendrix, Lan Nguyen, Dang (Reagan) Hoang
+					<strong>Team Members: </strong>
+					Jose Ramirez, Michael Ingrum, Alec Resha, Justin Henley, Chloe Hendrix, Lan Nguyen, Dang (Reagan) Hoang
 					<br>
-					Client: Dr. Harsh Verma, CEO & CTO of Glocol Networks
+					<strong>Client: </strong>Dr. Harsh Verma, CEO & CTO of Glocol Networks
 					<br>
-					Adviser: Prof. Zhang
-				</h3>
+					<strong>Adviser: </strong>Prof. Zhang
 			</p>
 		</div>
 
@@ -32,9 +30,9 @@
 			<h3>Background</h3>
 			<p>
 			<strong>Product Owner:</strong> Dr. Harsh Verma, Glocol Networks. <br>
-      			<strong>Product Owner’s “Business”:</strong> Glocol Networks is an Internet Of Things research company with a focus on Smart Cities. They focus on researching and testing new connected products, working from a concept to a commercialized product. Focusing on smart cities and roads, they primarily work with CalTrans, USDOT, Cisco, Intel, and others. <br>
-     	 		<strong>Problem to be solved:</strong> Currently, there are no solutions in which a camera can capture traffic signal changes through video feed without utilizing the traffic controller. Creating software that can achieve this goal and make the data available on a mobile app to be used as a standalone internal interface.
-		  </p>
+				<strong>Product Owner’s “Business”:</strong> Glocol Networks is an Internet Of Things research company with a focus on Smart Cities. They focus on researching and testing new connected products, working from a concept to a commercialized product. Focusing on smart cities and roads, they primarily work with CalTrans, USDOT, Cisco, Intel, and others. <br>
+				<strong>Problem to be solved:</strong> Currently, there are no solutions in which a camera can capture traffic signal changes through video feed without utilizing the traffic controller. Creating software that can achieve this goal and make the data available on a mobile app to be used as a standalone internal interface.
+		</p>
 		</div>
 
 		<div class="section scope">
@@ -72,17 +70,27 @@
 		<div class="section prototypes">
 			<h3>Prototypes</h3>
 			<p><!-- Change the description of the project strting from here -->
-				We used
-				<a href="https://app.flutterflow.io/run/hAcsHMtxxCHIHTu7RAeR" target="_blank">FlutterFlow</a>
+				<strong>Phase 1 Prototype:</strong>
+				For our first protoype, we used
+				<a href="https://app.flutterflow.io/run/hAcsHMtxxCHIHTu7RAeR" target="_blank" style="color: #36964C;">FlutterFlow</a>
 				to create a prototype of the user application.
 				The user can choose from a list of upcoming intersections to view it's current status.
 				<br>
 			</p>
-			<img src="images/527160.png" alt="ExampleImage1">
-			<img src="images/567528.png" alt="ExampleImage2">
-			<img src="images/570238.png" alt="ExampleImage3">
-			<img src="images/667828.png" alt="ExampleImage4">
-			<img src="images/720238.png" alt="ExampleImage5">
+			<p><!-- Change the description of the project strting from here -->
+				<strong>Phase 2 Prototype:</strong>
+				We created a Machine Learning model that is able to recognize when intersection lights are green, yellow, or red. 
+				The images that you see are part of the dataset that we used. 
+				This way, the model will be able to recognize the state of the intersection and pass that on through the user interface to the consumer.
+				<br>
+			</p>
+
+			<img class="ML-Images" src="images/527160.png" alt="ExampleImage1">
+			<img class="ML-Images" src="images/567528.png" alt="ExampleImage2">
+			<img class="ML-Images" src="images/570238.png" alt="ExampleImage3">
+			<img class="ML-Images" src="images/667828.png" alt="ExampleImage4">
+			<img class="ML-Images" src="images/720238.png" alt="ExampleImage5">
+
 
 		</div>
 	
@@ -138,12 +146,36 @@
 						</p>
 					</li>
 					<li>
-						<h3>Current Status</h3>
+						<h3>Sprint 05: TBA</h3>
 						<p>
-							As we near the end of the first part of the senior project, our team will meet with our client a couple more times to prepare for development of the project beginning in Spring 2022.
+							Since our team currently has a Machine Learning model already in development, the data needs to be encoded in the required standards. Setup edge devices. Intialize the database.
 						</p>
 					</li>
-				  </ul>
+					<li>
+						<h3>Sprint 06: TBA</h3>
+						<p>
+							Train the Machine Learning model to scan videos instead of images. Setup data encryption and decryption. Begin unit testing.
+						</p>
+					</li>
+					<li>
+						<h3>Sprint 07: TBA</h3>
+						<p>
+							Connect the edge devices, database, and webapp together. Begin to make the webapp dynamic by requesting data from the database and popluating the necessary information onto the frontend of the webapp.
+						</p>
+					</li>
+					<li>
+						<h3>Sprint 08: TBA</h3>
+						<p>
+							Create optimizations where possible since the client would prefer if the entire system is able to be updated every 100ms.
+						</p>
+					</li>
+					<li>
+						<h3>Sprint 09: TBA</h3>
+						<p>
+							Fix any lingering bugs, and finish any last minute touch ups. 
+						</p>
+					</li>
+				</ul>
 
 			</p>
 		</div>

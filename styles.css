@@ -73,7 +73,7 @@ body {
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #ffffffde;
+    background-color: #ffffffe5;
 }
 
 .section h3 {
@@ -114,7 +114,7 @@ ul {
 
 ul li {
 	padding-left: 2rem;
-	background-image: url(/images/pineapple-1.1s-200px.svg);
+	background-image: url(./images/pineapple-1.1s-200px.svg);
 	background-position: 0 0;
 	background-size: 1.5rem 1.5rem;
 	background-repeat: no-repeat;
@@ -125,4 +125,13 @@ ul li {
 }
 .inner-implementation ol li{
 	margin-bottom: 10px;
+}
+
+.ML-Images {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 90%;
 }
