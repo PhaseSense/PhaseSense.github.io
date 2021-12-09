@@ -127,8 +127,10 @@ ul li {
 	margin-bottom: 10px;
 }
 
+
+
 .ML-Images {
-	display: block;
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
